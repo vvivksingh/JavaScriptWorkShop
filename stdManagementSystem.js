@@ -16,4 +16,12 @@ hashMap.set(3, { firstName:'Aparna', lastName: 'Singh', address:'Rohini13 A', ph
 hashMap.set(4, { firstName:'Anjali', lastName: 'Sinha', address:'Rohini11 B', physicsMarks: 49, chemistryMarks:63,mathMarks:42});
 hashMap.set(5, { firstName:'Akash', lastName: 'Sharan', address:'Rohini 18 F', physicsMarks: 54, chemistryMarks:39,mathMarks:37});
 
-//console.log(hashMap);
+console.log(hashMap);
+
+//UC4 : Filter out the student based on marks.
+    hashMap.forEach(function(value, key){
+    console.log(key + ' = ' + JSON.stringify(value))
+    if(value.mathMarks < 70) {
+    console.log(value.mathMarks,'Filtering students who got less than 70 marks in maths :-')
+    }})
+       
