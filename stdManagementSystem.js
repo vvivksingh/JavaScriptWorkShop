@@ -8,7 +8,7 @@ const studentDetails = [
 
 console.log('Adding student data and displaying it ',studentDetails);
 //UC3 : Use hashmap to store the student data.
-const hashMap = new Map()
+const hashMap = new Map();
 
 hashMap.set(1, { firstName:'Mohit', lastName: 'Pandey', address:'Rohini18 E', physicsMarks: 92, chemistryMarks:83,mathMarks:80});
 hashMap.set(2, { firstName:'Saurabh', lastName: 'Goyel', address:'Rohoni18 A', physicsMarks: 87, chemistryMarks:87,mathMarks:70});
