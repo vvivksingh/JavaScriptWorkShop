@@ -24,4 +24,20 @@ console.log(hashMap);
     if(value.mathMarks < 70) {
     console.log(value.mathMarks,'Filtering students who got less than 70 marks in maths :-')
     }})
+
+    //UC5 : Edit student data.
+
+    var editStudentDetails = hashMap.get(5)
+    editStudentDetails.firstName = 'Komal'
+    editStudentDetails.lastName = 'Sinha'
+    editStudentDetails.address = 'Rohini 3 A'
+    console.log(editStudentDetails)
+  
+    var editStudentDetails = hashMap.get(4)
+    editStudentDetails.firstName = 'Praksh'
+    editStudentDetails.lastName = 'Roy'
+    editStudentDetails.address = 'Rohini 15'
+    console.log(editStudentDetails)
+  
+    console.log(hashMap , "Edited Student Details")
        
