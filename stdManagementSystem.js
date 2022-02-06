@@ -20,14 +20,14 @@ console.log(hashMap);
 
 //UC4 : Filter out the student based on marks.
     hashMap.forEach(function(value, key){
-    console.log(key + ' = ' + JSON.stringify(value))
+    console.log(key + ' = ' + JSON.stringify(value));
     if(value.mathMarks < 70) {
-    console.log(value.mathMarks,'Filtering students who got less than 70 marks in maths :-')
-    }})
+    console.log(value.mathMarks,'Filtering students who got less than 70 marks in maths :-');
+    }});
 
     //UC5 : Edit student data.
 
-    var editStudentDetails = hashMap.get(5)
+    var editStudentDetails = hashMap.get(5);
     editStudentDetails.firstName = 'Komal'
     editStudentDetails.lastName = 'Sinha'
     editStudentDetails.address = 'Rohini 3 A'
@@ -39,5 +39,5 @@ console.log(hashMap);
     editStudentDetails.address = 'Rohini 15'
     console.log(editStudentDetails)
   
-    console.log(hashMap , "Edited Student Details")
+    console.log(hashMap , "Edited Student Details");
        
